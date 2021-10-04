@@ -94,6 +94,14 @@ del{
 
 }
 
+.box.bottom{
+    width: calc(100% / 3 - 10px);
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    top: 90px;
+}
+
 
 
 
