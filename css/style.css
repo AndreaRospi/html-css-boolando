@@ -18,14 +18,30 @@
 }
 
 .box{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 10px);
     float: left;
+    margin-right: 10px;
 }
 
 .origin{
     width: 100%;
     height: 600px;
     object-fit: cover;
+}
+
+.img-hover{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: none;
+}
+
+.box:hover .origin{
+    display: none;
+}
+
+.box:hover .img-hover{
+    display: inline-block;
 }
 
 
